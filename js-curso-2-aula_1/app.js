@@ -6,7 +6,7 @@
 let listaDeNumerosSorteados = [];
 
 //quantidade maxíma de números
-let numeroLimite = 10;
+let numeroLimite = 100;
 
 //quantida de tentativas
 tentativa = 1;
@@ -22,7 +22,7 @@ function verificarTexto (tag, texto){
 }
 function mensagemInicial(){
   verificarTexto ('h1','jogo do número secreto');
-  verificarTexto ('p', 'escolha um número entre 1 a 10');
+  verificarTexto ('p', `escolha um número entre 1 a ${numeroLimite}`);
 }
 mensagemInicial();
 
