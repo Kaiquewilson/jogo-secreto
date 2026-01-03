@@ -6,7 +6,7 @@
 let listaDeNumerosSorteados = [];
 
 //quantidade maxíma de números
-let numeroLimite = 100;
+let numeroLimite = 1000;
 
 //quantida de tentativas
 tentativa = 1;
